@@ -1,0 +1,364 @@
+@import "vars";
+
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+// Header styles
+.header {
+  text-decoration: none;
+  display: flex;
+  height: 147px;
+  flex-direction: column;
+  .brand {
+    font-family: $font;
+    letter-spacing: 0.5rem;
+    font-size: 1.2rem;
+    height: 70px;
+    font-weight: 100;
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #dcdcdc;
+    align-items: center;
+    justify-content: center;
+    h1 {
+    }
+    .fa-shopping-bag {
+      position: absolute;
+      right: 5rem;
+    }
+  }
+  .category,
+  .promo {
+    font-family: $secondfont;
+    width: 100%;
+  }
+  .category {
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    ul {
+      display: flex;
+      align-items: flex-start;
+    }
+    li {
+      margin: 0 2.4rem 0 2.4rem;
+      font-size: 0.8rem;
+      font-weight: 200;
+    }
+  }
+  .promo {
+    height: 37px;
+    color: #fffff8;
+    background-color: #5f5656;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    h2 {
+      letter-spacing: 0.1rem;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+    }
+    a {
+      text-transform: capitalize;
+      font-size: 0.65rem;
+    }
+  }
+}
+
+//Footer style
+.footer {
+  font-family: $secondfont;
+  .foot1 {
+    display: flex;
+    padding-top: 3rem;
+    border-top: 1px solid #e0e0e0;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #e0e0e0;
+    height: 200px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    h1 {
+      margin-bottom: 1.5rem;
+      font-size: 0.8rem;
+    }
+    li {
+      line-height: 1.9;
+      font-size: 0.8rem;
+      color: #4b5e96;
+      cursor: pointer;
+    }
+    li:hover {
+      color: darken(#4b5e96, 20);
+    }
+    ul {
+      width: 280px;
+    }
+    ul:nth-child(1) {
+      border-right: 1px solid #e0e0e0;
+      height: 150px;
+    }
+  }
+  .foot2 {
+    height: 40px;
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: center;
+    align-items: flex-end;
+  }
+}
+
+//Home style
+.home {
+  .home1 {
+    height: 350px;
+    background: url(https://images.pexels.com/photos/310419/pexels-photo-310419.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+      center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    color: #ffff88;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    .title1 {
+      margin-right: 10rem;
+      h1 {
+        font-family: $font;
+      }
+      h1:nth-child(1) {
+        letter-spacing: 0.2rem;
+        font-size: 1.5rem;
+        font-weight: 300;
+      }
+      h1:nth-child(4) {
+        letter-spacing: 0.5rem;
+        font-size: 3.5rem;
+      }
+      h2 {
+        font-size: 1rem;
+      }
+      h2:nth-child(2) {
+        margin-bottom: 2.5rem;
+        font-family: $thirdfont;
+        font-size: 1.1rem;
+        margin-top: 0.2rem;
+        letter-spacing: 0.2rem;
+      }
+      h2:nth-child(3) {
+        letter-spacing: 0.3rem;
+        font-weight: 500;
+        font-size: 0.9rem;
+        font-family: $secondfont;
+      }
+    }
+  }
+  .home2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+    height: 1100px;
+    margin: 3rem;
+    font-family: $secondfont;
+    font-size: 0.5rem;
+    h1 {
+      margin-bottom: 0.3rem;
+    }
+    .skirts {
+      background: url(https://images.pexels.com/photos/1066171/pexels-photo-1066171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+      background-size: cover;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      height: 520px;
+      h1 {
+        color: #ffff88;
+      }
+    }
+    .blazers {
+      background: url(https://images.unsplash.com/photo-1537027099768-d02968f00e3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60);
+      background-size: cover;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      height: 520px;
+      h1 {
+        color: #ffff88;
+      }
+    }
+    .jacketsw {
+      background: url(https://images.unsplash.com/photo-1542838077-57653741795a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60);
+      background-size: cover;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      height: 520px;
+      h1 {
+        color: #ffff88;
+      }
+    }
+    .handbags {
+      background: url(https://images.pexels.com/photos/1204464/pexels-photo-1204464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+        center;
+      background-size: cover;
+      grid-column: 1/-1;
+      display: flex;
+      text-align: center;
+      height: 520px;
+      align-items: center;
+      justify-content: flex-start;
+      h1 {
+        font-family: $font;
+        font-size: 2.5rem;
+        width: 300px;
+        margin-left: 2rem;
+        letter-spacing: 0.2rem;
+      }
+      p {
+        font-size: 1rem;
+        margin-top: 1rem;
+        width: 300px;
+        margin-left: 2rem;
+        line-height: 1.5;
+        letter-spacing: 0.1rem;
+      }
+      .line {
+        margin-top: 0.5rem;
+        margin-left: 2rem;
+      }
+      * {
+        color: #fffff8;
+      }
+    }
+  }
+  .home3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+    height: auto;
+    font-family: $secondfont;
+    font-size: 0.5rem;
+    h1 {
+      margin-bottom: 0.3rem;
+    }
+    .title2 {
+      grid-column: 1/-1;
+      background: url(https://images.pexels.com/photos/983497/pexels-photo-983497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      height: 520px;
+      justify-content: flex-end;
+      h1 {
+        color: #ffff88;
+        font-size: 3rem;
+        font-family: $font;
+        letter-spacing: 0.2rem;
+        margin-right: 10rem;
+      }
+    }
+    .jackets {
+      grid-column: 1/3;
+      background: url(https://images.pexels.com/photos/157675/fashion-men-s-individuality-black-and-white-157675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+      background-size: cover;
+      display: flex;
+      align-items: flex-end;
+      margin-left: 3rem;
+      margin-bottom: 3rem;
+      height: 520px;
+      justify-content: center;
+      h1 {
+        color: #ffff88;
+      }
+    }
+    .sweaters {
+      background: url(https://images.pexels.com/photos/865636/pexels-photo-865636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+        center;
+      background-size: cover;
+      display: flex;
+      margin-right: 3rem;
+      margin-bottom: 3rem;
+      align-items: flex-end;
+      height: 520px;
+      justify-content: center;
+      h1 {
+        color: #ffff88;
+      }
+    }
+  }
+}
+
+// Title style
+.title {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 1rem 3rem 3rem 3rem;
+  border-top: 1px solid #dcdcdc;
+  height: 60px;
+  .filter {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    h1 {
+      font-family: $secondfont;
+      font-size: 0.7rem;
+      font-weight: 400;
+      padding-right: 1rem;
+      cursor: pointer;
+    }
+    select {
+      all: unset;
+      font-family: $secondfont;
+      background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png)
+        no-repeat calc(100% - 0.3rem);
+      width: auto;
+      border: 1px solid #d1d1d1;
+      padding: 0.2rem 2rem 0.2rem 0.3rem;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+    select:hover {
+      border: 1px solid darken(#d1d1d1, 30);
+    }
+    select option:hover {
+      background-color: #c6ccd6;
+      box-shadow: 0 0 10px 100px #d1d1d1 inset;
+    }
+  }
+  .item {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1 {
+      font-family: $font;
+      font-weight: 300;
+      letter-spacing: 0.2rem;
+      font-size: 1.5rem;
+    }
+  }
+  .page {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    p {
+      font-family: $secondfont;
+      font-size: 0.7rem;
+      border: 1px solid #d1d1d1;
+      margin: 0 0.3rem;
+      padding: 0.3rem 1rem;
+    }
+    button {
+      all: unset;
+      font-size: 0.7rem;
+      padding: 0.3rem 1rem;
+      border: 1px solid #d1d1d1;
+      cursor: pointer;
+    }
+  }
+}

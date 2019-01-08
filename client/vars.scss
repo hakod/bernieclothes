@@ -1,0 +1,117 @@
+$font: "Playfair Display";
+$secondfont: "Muli";
+$thirdfont: "Parisienne";
+
+.line {
+  height: 1px;
+  background-color: #fff;
+  margin-bottom: 2rem;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 3rem;
+  grid-gap: 1rem;
+  .listitem {
+    display: flex;
+    text-align: center;
+    width: auto;
+    align-items: center;
+    flex-direction: column;
+    img {
+      width: 100%;
+    }
+    h1 {
+      font-size: 0.8rem;
+      letter-spacing: 0.1rem;
+      font-family: $secondfont;
+    }
+    h1:nth-child(2) {
+      margin-top: 2rem;
+      font-weight: 200;
+    }
+    h1:nth-child(2):hover {
+      text-decoration: underline;
+    }
+    h1:nth-child(3) {
+      font-weight: 800;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.product {
+  display: flex;
+  margin-left: 15%;
+  margin-bottom: 5rem;
+  margin-top: 0;
+  div:nth-child(1) {
+    img {
+      width: 440px;
+    }
+  }
+  div:nth-child(2) {
+    margin-left: 5%;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    font-family: $secondfont;
+    h2:nth-child(1) {
+      font-size: 0.8rem;
+      letter-spacing: 0.5rem;
+      margin-bottom: 3.5rem;
+      a {
+        all: unset;
+        cursor: pointer;
+      }
+    }
+    h1 {
+      font-family: $font;
+      font-weight: 300;
+      font-size: 1.5rem;
+    }
+    h2:nth-child(3) {
+      margin: 1rem 0;
+      margin-bottom: 3.5rem;
+      font-size: 1rem;
+    }
+    p {
+      line-height: 2;
+    }
+    a {
+      height: 40px;
+      width: 200px;
+      font-weight: 900;
+      font-size: 0.8rem;
+      margin: 1rem 0;
+      text-align: center;
+      color: white;
+      background-color: #041e3a;
+      line-height: 40px;
+      letter-spacing: 0.2rem;
+      cursor: pointer;
+    }
+    .color {
+      display: flex;
+      height: 50px;
+      align-items: flex-start;
+      padding-top: 1rem;
+      border-bottom: 1px solid #dcdcdc;
+      border-top: 1px solid #dcdcdc;
+      li {
+        margin-right: 2rem;
+      }
+    }
+    .size {
+      display: flex;
+      height: 50px;
+      padding-top: 1rem;
+      align-items: flex-start;
+      li {
+        margin-right: 2rem;
+      }
+    }
+  }
+}

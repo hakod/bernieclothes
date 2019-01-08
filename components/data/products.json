@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Skirt 1",
+      "type": "skirts",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["black", "blue"],
+      "size": ["XS", "S", "M"],
+      "image": "https://images.pexels.com/photos/1007018/pexels-photo-1007018.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 119.99
+    },
+    {
+      "id": 2,
+      "name": "Skirt 2",
+      "type": "skirts",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["beige", "blue"],
+      "size": ["XS", "S", "M", "L", "XL"],
+      "image": "https://images.pexels.com/photos/698881/pexels-photo-698881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 239.99
+    },
+    {
+      "id": 3,
+      "name": "Skirt 3",
+      "type": "skirts",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["gray", "blue"],
+      "size": ["XS", "M", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1007019/pexels-photo-1007019.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 149.99
+    },
+    {
+      "id": 4,
+      "name": "Skirt 4",
+      "type": "skirts",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["pink", "green"],
+      "size": ["S", "M", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1390298/pexels-photo-1390298.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 689.99
+    },
+    {
+      "id": 5,
+      "name": "Skirt 5",
+      "type": "skirts",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["blue", "black"],
+      "size": ["XS", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1007017/pexels-photo-1007017.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 789.99
+    },
+    {
+      "id": 6,
+      "name": "Skirt 6",
+      "type": "skirts",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["white"],
+      "size": ["XS", "S", "M", "XL"],
+      "image": "https://images.pexels.com/photos/908991/pexels-photo-908991.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 999.99
+    },
+    {
+      "id": 7,
+      "name": "Skirt 7",
+      "type": "skirts",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["white", "black"],
+      "size": ["XS", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1039518/pexels-photo-1039518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 129.99
+    },
+    {
+      "id": 8,
+      "name": "Skirt 8",
+      "type": "skirts",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["black", "purple"],
+      "size": ["XS", "S", "M", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1435836/pexels-photo-1435836.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 569.99
+    },
+    {
+      "id": 9,
+      "name": "Skirt 9",
+      "type": "skirts",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["white", "black"],
+      "size": ["XS", "S", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1066171/pexels-photo-1066171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 249.99
+    }
+  ]
+}
