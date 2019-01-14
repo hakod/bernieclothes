@@ -11,16 +11,18 @@ class Product extends React.Component {
       name: "",
       color: [],
       size: [],
-      set: "",
+      colorSet: "",
       sizeSet: ""
     };
     this.setColor = this.setColor.bind(this);
     this.setSize = this.setSize.bind(this);
+    this.add = this.add.bind(this);
   }
   componentDidMount() {
     let o = data.products.filter(
       x => x.id === Number(this.props.match.params.id)
     );
+    console.log(this.props.actions);
     this.setState({
       product: o[0],
       type: o[0].type.toUpperCase(),
@@ -31,7 +33,7 @@ class Product extends React.Component {
   }
   setColor(event) {
     this.setState({
-      set: event.target.value
+      colorSet: event.target.value
     });
   }
   setSize(event) {
@@ -39,9 +41,16 @@ class Product extends React.Component {
       sizeSet: event.target.value
     });
   }
+  add() {
+    if (this.state.colorSet && this.state.sizeSet) {
+      this.props.actions.addItem(this.state);
+      alert(`${this.state.name} added to cart`);
+    } else {
+      alert("Select color and size");
+    }
+  }
   render() {
     let pro = this.state.product;
-    console.log(this.state.color.length);
     return (
       <div className="product">
         <div>
@@ -57,15 +66,14 @@ class Product extends React.Component {
             <form>
               {this.state.color.length > 0
                 ? this.state.color.map(product => (
-                    <label>
+                    <label key={product}>
                       <input
-                        key={Math.random() * Math.random()}
                         type="radio"
-                        id={product.id}
+                        id={product}
                         name={product}
                         value={product}
                         onChange={this.setColor}
-                        checked={this.state.set === product}
+                        checked={this.state.colorSet === product}
                       />
                       {product}
                     </label>
@@ -74,14 +82,13 @@ class Product extends React.Component {
             </form>
           </ul>
           <ul className="size">
-            {/* {this.state.size.length > 0
+            {this.state.size.length > 0
               ? this.state.size.map(product => (
-                  <label>
+                  <label key={product}>
                     <input
                       onChange={this.setSize}
-                      key={product.id}
                       type="radio"
-                      id={product.id}
+                      id={product}
                       name={product}
                       value={product}
                       checked={this.state.sizeSet === product}
@@ -89,10 +96,10 @@ class Product extends React.Component {
                     {product}
                   </label>
                 ))
-              : null} */}
+              : null}
           </ul>
           <p>{pro.description}</p>
-          <a>ADD TO BAG</a>
+          <a onClick={this.add}>ADD TO BAG</a>
         </div>
       </div>
     );

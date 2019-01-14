@@ -14,7 +14,10 @@ class Header extends React.Component {
           <Link to="/">
             <h1>BERNIE CLOTHES</h1>
           </Link>
-          <FontAwesomeIcon icon="shopping-bag" />
+          <Link to="/cart" className="cart">
+            {this.props.item.length}
+            <FontAwesomeIcon icon="shopping-bag" />
+          </Link>
         </div>
         <div className="category">
           <ul>
@@ -24,7 +27,8 @@ class Header extends React.Component {
         </div>
         <div className="promo">
           <h2>
-            Take a holiday 50% off sale using styles with code FASH{"   "}
+            Take a extra 30% off on select items using styles with code FASH
+            {"   "}
             <a>Details</a>
           </h2>
         </div>

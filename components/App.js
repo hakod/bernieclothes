@@ -43,6 +43,7 @@ import JacketsW from "./JacketsW";
 import Skirts from "./Skirts";
 import Sweaters from "./Sweaters";
 import Product from "./comp/Product";
+import Cart from "./comp/Cart";
 
 class App extends Component {
   render() {
@@ -50,7 +51,7 @@ class App extends Component {
       <Router>
         <ScrollToTop>
           <div>
-            <Header />
+            <Header item={this.props.item} />
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/blazers/" component={Blazers} />
@@ -59,7 +60,18 @@ class App extends Component {
               <Route path="/jacketsw/" component={JacketsW} />
               <Route path="/skirts/" component={Skirts} />
               <Route path="/sweaters/" component={Sweaters} />
-              <Route path="/product/:id" component={Product} />
+              <Route
+                path="/product/:id"
+                render={props => (
+                  <Product {...props} actions={this.props.actions} />
+                )}
+              />
+              <Route
+                path="/cart/"
+                render={() => (
+                  <Cart actions={this.props.actions} item={this.props.item} />
+                )}
+              />
             </Switch>
             <Footer />
           </div>

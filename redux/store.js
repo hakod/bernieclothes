@@ -8,6 +8,6 @@ let finalCreateStore = compose(applyMiddleware(thunk, createLogger()))(
   createStore
 );
 
-export default function configureStore(initialState = { gifs: [] }) {
+export default function configureStore(initialState = { item: [] }) {
   return finalCreateStore(rootReducer, initialState);
 }

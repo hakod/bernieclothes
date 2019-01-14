@@ -1,7 +1,13 @@
 let actions = {
-  addGif: function(id) {
+  addItem: function(id) {
     return {
-      type: "ADD_GIF",
+      type: "ADD_ITEM",
+      id: id
+    };
+  },
+  deleteItem: function(id) {
+    return {
+      type: "DELETE_ITEM",
       id: id
     };
   }

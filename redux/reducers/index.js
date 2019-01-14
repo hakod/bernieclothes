@@ -1,12 +1,8 @@
 import { combineReducers } from "redux";
-// import gifReducer from "./gifReducer";
-// import collReducer from "./collReducer";
-// import viewReducer from "./viewReducer";
+import itemReducer from "./itemReducer";
 
 const rootReducer = combineReducers({
-  // gifs: gifReducer,
-  // coll: collReducer,
-  // view: viewReducer
+  item: itemReducer
 });
 
 export default rootReducer;
