@@ -5,13 +5,14 @@ class Jackets extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: "Jackets"
+      name: "Jacketsw",
+      title: "Jackets"
     };
   }
   render() {
     return (
       <div>
-        <Title name={this.state.name} />
+        <Title name={this.state.name} title={this.state.title} />
       </div>
     );
   }

@@ -63,7 +63,6 @@
   }
   .promo {
     height: 37px;
-    color: #fffff8;
     background-color: #041e3a;
     display: flex;
     align-items: center;
@@ -73,6 +72,7 @@
     h2 {
       letter-spacing: 0.1rem;
       font-size: 0.75rem;
+      color: #fffff8;
       text-transform: uppercase;
     }
     a {
@@ -93,6 +93,7 @@
     border-bottom: 1px solid #e0e0e0;
     height: 200px;
     align-items: flex-start;
+    color: #fffff8;
     justify-content: space-evenly;
     h1 {
       margin-bottom: 1.5rem;
@@ -133,7 +134,6 @@
     background-size: cover;
     display: flex;
     align-items: flex-end;
-    color: #fff;
     flex-direction: column;
     text-align: center;
     justify-content: center;
@@ -141,30 +141,36 @@
       margin-right: 10rem;
       h1 {
         font-family: $font;
+        color: #fff;
       }
       h1:nth-child(1) {
         letter-spacing: 0.2rem;
         font-size: 1.5rem;
+        color: #fff;
         font-weight: 300;
       }
       h1:nth-child(4) {
         letter-spacing: 0.5rem;
         font-size: 3.5rem;
+        color: #fff;
       }
       h2 {
         font-size: 1rem;
+        color: #fff;
       }
       h2:nth-child(2) {
         margin-bottom: 2.5rem;
         font-family: $thirdfont;
         font-size: 1.1rem;
         margin-top: 0.2rem;
+        color: #fff;
         letter-spacing: 0.2rem;
       }
       h2:nth-child(3) {
         letter-spacing: 0.3rem;
         font-weight: 500;
         font-size: 0.9rem;
+        color: #fff;
         font-family: $secondfont;
       }
     }

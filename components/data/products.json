@@ -89,6 +89,396 @@
       "size": ["XS", "S", "L", "XL"],
       "image": "https://images.pexels.com/photos/1066171/pexels-photo-1066171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "price": 249.99
+    },
+    {
+      "id": 10,
+      "name": "Blazer 1",
+      "type": "blazers",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["black", "blue"],
+      "size": ["XS", "S", "M"],
+      "image": "https://images.pexels.com/photos/1638419/pexels-photo-1638419.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 119.99
+    },
+    {
+      "id": 11,
+      "name": "Blazer 2",
+      "type": "blazers",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["beige", "blue"],
+      "size": ["XS", "S", "M", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1006996/pexels-photo-1006996.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 239.99
+    },
+    {
+      "id": 12,
+      "name": "Blazer 3",
+      "type": "blazers",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["gray", "blue"],
+      "size": ["XS", "M", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1684377/pexels-photo-1684377.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 149.99
+    },
+    {
+      "id": 13,
+      "name": "Blazer 4",
+      "type": "blazers",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["pink", "green"],
+      "size": ["S", "M", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1661390/pexels-photo-1661390.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 689.99
+    },
+    {
+      "id": 14,
+      "name": "Blazer 5",
+      "type": "blazers",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["blue", "black"],
+      "size": ["XS", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1144837/pexels-photo-1144837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 789.99
+    },
+    {
+      "id": 15,
+      "name": "Blazer 6",
+      "type": "blazers",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["white"],
+      "size": ["XS", "S", "M", "XL"],
+      "image": "https://images.pexels.com/photos/1006998/pexels-photo-1006998.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 999.99
+    },
+    {
+      "id": 16,
+      "name": "Blazer 7",
+      "type": "blazers",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["white", "black"],
+      "size": ["XS", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1270013/pexels-photo-1270013.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 129.99
+    },
+    {
+      "id": 17,
+      "name": "Blazer 8",
+      "type": "blazers",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["black", "purple"],
+      "size": ["XS", "S", "M", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1661386/pexels-photo-1661386.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 569.99
+    },
+    {
+      "id": 18,
+      "name": "Blazer 9",
+      "type": "blazers",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["white", "black"],
+      "size": ["XS", "S", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1081230/pexels-photo-1081230.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 249.99
+    },
+    {
+      "id": 19,
+      "name": "Jacket 1",
+      "type": "jacketsw",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["black", "blue"],
+      "size": ["XS", "S", "M"],
+      "image": "https://images.pexels.com/photos/1381553/pexels-photo-1381553.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 119.99
+    },
+    {
+      "id": 20,
+      "name": "Jacket 2",
+      "type": "jacketsw",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["beige", "blue"],
+      "size": ["XS", "S", "M", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1757076/pexels-photo-1757076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 239.99
+    },
+    {
+      "id": 21,
+      "name": "Jacket 3",
+      "type": "jacketsw",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["gray", "blue"],
+      "size": ["XS", "M", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1761683/pexels-photo-1761683.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 149.99
+    },
+    {
+      "id": 22,
+      "name": "Jacket 4",
+      "type": "jacketsw",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["blue", "black"],
+      "size": ["XS", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1757281/pexels-photo-1757281.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 789.99
+    },
+    {
+      "id": 23,
+      "name": "Jacket 5",
+      "type": "jacketsw",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["white"],
+      "size": ["XS", "S", "M", "XL"],
+      "image": "https://images.pexels.com/photos/1701626/pexels-photo-1701626.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 999.99
+    },
+    {
+      "id": 24,
+      "name": "Jacket 6",
+      "type": "jacketsw",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["white", "black"],
+      "size": ["XS", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1757080/pexels-photo-1757080.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 129.99
+    },
+    {
+      "id": 25,
+      "name": "Jacket 7",
+      "type": "jacketsw",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["black", "purple"],
+      "size": ["XS", "S", "M", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1750776/pexels-photo-1750776.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 569.99
+    },
+    {
+      "id": 26,
+      "name": "Jacket 8",
+      "type": "jacketsw",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["white", "black"],
+      "size": ["XS", "S", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1708027/pexels-photo-1708027.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 249.99
+    },
+    {
+      "id": 27,
+      "name": "Handbag 1",
+      "type": "handbags",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["white", "black"],
+      "size": ["XS", "S", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1022383/pexels-photo-1022383.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 249.99
+    },
+    {
+      "id": 28,
+      "name": "Handbag 2",
+      "type": "handbags",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["white", "black"],
+      "size": ["XS", "S", "L", "XL"],
+      "image": "https://images.pexels.com/photos/17683/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 529.99
+    },
+    {
+      "id": 29,
+      "name": "Handbag 3",
+      "type": "handbags",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["white", "black"],
+      "size": ["XS", "S", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1653217/pexels-photo-1653217.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 2129.99
+    },
+    {
+      "id": 30,
+      "name": "Handbag 4",
+      "type": "handbags",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["white", "black"],
+      "size": ["XS", "S", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1381553/pexels-photo-1381553.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 219.99
+    },
+    {
+      "id": 31,
+      "name": "Handbag 5",
+      "type": "handbags",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["white", "black"],
+      "size": ["XS", "S", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1204464/pexels-photo-1204464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 929.99
+    },
+    {
+      "id": 32,
+      "name": "Handbag 6",
+      "type": "handbags",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["white", "black"],
+      "size": ["XS", "S", "L", "XL"],
+      "image": "https://images.pexels.com/photos/45981/pexels-photo-45981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 129.99
+    },
+    {
+      "id": 33,
+      "name": "Handbag 7",
+      "type": "handbags",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["white", "black"],
+      "size": ["XS", "S", "L", "XL"],
+      "image": "https://images.pexels.com/photos/45981/pexels-photo-45981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 429.99
+    },
+    {
+      "id": 34,
+      "name": "Jacket 1",
+      "type": "jackets",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["gray", "black"],
+      "size": ["XS", "S", "L", "XL"],
+      "image": "https://images.pexels.com/photos/447185/pexels-photo-447185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 429.99
+    },
+    {
+      "id": 35,
+      "name": "Jacket 2",
+      "type": "jackets",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["gray", "white"],
+      "size": ["XS", "S", "L", "XL"],
+      "image": "https://images.pexels.com/photos/157675/fashion-men-s-individuality-black-and-white-157675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 179.99
+    },
+    {
+      "id": 36,
+      "name": "Jacket 3",
+      "type": "jackets",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["purple", "white"],
+      "size": ["S", "L", "XL"],
+      "image": "https://images.pexels.com/photos/173125/pexels-photo-173125.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 379.99
+    },
+    {
+      "id": 37,
+      "name": "Jacket 4",
+      "type": "jackets",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["black", "white"],
+      "size": ["S", "L", "XL"],
+      "image": "https://images.pexels.com/photos/311070/pexels-photo-311070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 679.99
+    },
+    {
+      "id": 38,
+      "name": "Jacket 5",
+      "type": "jackets",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["black", "white", "navy"],
+      "size": ["XS", "S", "L", "XL"],
+      "image": "https://images.pexels.com/photos/848609/pexels-photo-848609.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 119.99
+    },
+    {
+      "id": 39,
+      "name": "Jacket 6",
+      "type": "jackets",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["black", "white", "navy"],
+      "size": ["XS", "S", "L", "XL"],
+      "image": "https://images.pexels.com/photos/868096/pexels-photo-868096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 819.99
+    },
+    {
+      "id": 40,
+      "name": "Jacket 7",
+      "type": "jackets",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["black", "white", "navy"],
+      "size": ["XS", "S", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1603667/pexels-photo-1603667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 599.99
+    },
+    {
+      "id": 41,
+      "name": "Sweater 1",
+      "type": "sweaters",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["black", "white", "navy"],
+      "size": ["XS", "S", "L", "XL"],
+      "image": "https://images.pexels.com/photos/709796/pexels-photo-709796.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 399.99
+    },
+    {
+      "id": 42,
+      "name": "Sweater 2",
+      "type": "sweaters",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["black", "white", "navy"],
+      "size": ["XS", "S", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1674318/pexels-photo-1674318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 789.99
+    },
+    {
+      "id": 43,
+      "name": "Sweater 3",
+      "type": "sweaters",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["black", "white", "navy"],
+      "size": ["XS", "S", "L", "XL"],
+      "image": "https://images.pexels.com/photos/843561/pexels-photo-843561.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 149.99
+    },
+    {
+      "id": 44,
+      "name": "Sweater 4",
+      "type": "sweaters",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["black", "white", "navy"],
+      "size": ["XS", "S", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1578314/pexels-photo-1578314.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 1429.99
+    },
+    {
+      "id": 45,
+      "name": "Sweater 5",
+      "type": "sweaters",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["black", "white", "navy"],
+      "size": ["XS", "S", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1066952/pexels-photo-1066952.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 729.99
+    },
+    {
+      "id": 46,
+      "name": "Sweater 6",
+      "type": "sweaters",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["black", "white", "navy"],
+      "size": ["XS", "S", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1140803/pexels-photo-1140803.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 999.99
+    },
+    {
+      "id": 47,
+      "name": "Sweater 7",
+      "type": "sweaters",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["black", "white", "navy"],
+      "size": ["XS", "S", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1295880/pexels-photo-1295880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 149.99
+    },
+    {
+      "id": 48,
+      "name": "Sweater 8",
+      "type": "sweaters",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim consequatur recusandae, saepe cumque temporibus ipsa molestias velit fugiat aut autem ullam unde pariatur illo inventore et, rem veritatis? Reiciendis, eum! Animi odio saepe, magni nesciunt molestias perferendis voluptatem tenetur molestiae!",
+      "color": ["black", "white", "navy"],
+      "size": ["XS", "S", "L", "XL"],
+      "image": "https://images.pexels.com/photos/1670847/pexels-photo-1670847.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": 249.99
     }
   ]
 }

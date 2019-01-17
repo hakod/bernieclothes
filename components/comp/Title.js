@@ -19,7 +19,7 @@ class Title extends React.Component {
   }
   componentDidMount() {
     this.setState({
-      number: Math.ceil(data.products.length / 6)
+      number: Math.ceil(2)
     });
   }
   left() {
@@ -75,7 +75,7 @@ class Title extends React.Component {
             </select>
           </div>
           <div className="item">
-            <h1>{this.props.name}</h1>
+            <h1>{this.props.title ? this.props.title : this.props.name}</h1>
           </div>
           <div className="page">
             <button onClick={this.left}>
