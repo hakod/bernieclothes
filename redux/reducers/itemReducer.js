@@ -7,7 +7,7 @@ let itemReducer = function(item = [], action) {
         {
           item: action.id,
           id: uuidv4(),
-          qty: "3"
+          qty: "1"
         },
         ...item
       ];

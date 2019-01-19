@@ -56,8 +56,11 @@
       align-items: flex-start;
     }
     li {
-      margin: 0 2.4rem 0 2.4rem;
+      margin-right: 3rem;
+      padding-left: 3rem;
       font-size: 0.8rem;
+      text-align: center;
+      width: 55px;
       font-weight: 200;
     }
   }
@@ -333,7 +336,6 @@
       font-family: $secondfont;
       background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png)
         no-repeat calc(100% - 0.3rem);
-      width: auto;
       border: 1px solid #d1d1d1;
       padding: 0.2rem 2rem 0.2rem 0.3rem;
       font-size: 0.7rem;

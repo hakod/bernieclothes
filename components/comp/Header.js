@@ -21,8 +21,22 @@ class Header extends React.Component {
         </div>
         <div className="category">
           <ul>
-            <li>MEN</li>
-            <li>WOMEN</li>
+            <div className="dropdown">
+              <li>MEN</li>
+              <div className="content">
+                <Link to="/jackets">Jackets</Link>
+                <Link to="/sweaters">Sweaters</Link>
+              </div>
+            </div>
+            <div className="dropdown">
+              <li>WOMEN</li>
+              <div className="content">
+                <Link to="/skirts">Skirts</Link>
+                <Link to="/blazers">Blazers</Link>
+                <Link to="/jacketsw">Jackets</Link>
+                <Link to="/handbags">Handbags</Link>
+              </div>
+            </div>
           </ul>
         </div>
         <div className="promo">

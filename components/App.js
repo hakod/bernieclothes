@@ -44,6 +44,7 @@ import Skirts from "./Skirts";
 import Sweaters from "./Sweaters";
 import Product from "./comp/Product";
 import Cart from "./comp/Cart";
+import Checkout from "./comp/Checkout";
 
 class App extends Component {
   render() {
@@ -70,6 +71,15 @@ class App extends Component {
                 path="/cart/"
                 render={() => (
                   <Cart actions={this.props.actions} item={this.props.item} />
+                )}
+              />
+              <Route
+                path="/checkout/"
+                render={() => (
+                  <Checkout
+                    action={this.props.actions}
+                    item={this.props.item}
+                  />
                 )}
               />
             </Switch>

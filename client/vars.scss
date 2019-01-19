@@ -143,7 +143,7 @@ $thirdfont: "Parisienne";
       text-align: right;
     }
   }
-  button {
+  a {
     border: none;
     height: 50px;
     background-color: #041e3a;
@@ -152,6 +152,8 @@ $thirdfont: "Parisienne";
     letter-spacing: 0.1rem;
     cursor: pointer;
     margin-bottom: 2rem;
+    text-align: center;
+    line-height: 50px;
   }
 }
 .cart-container {
@@ -227,4 +229,29 @@ $thirdfont: "Parisienne";
       }
     }
   }
+}
+
+.content {
+  display: none;
+  position: absolute;
+  margin-left: 1.5rem;
+}
+.dropdown:hover .content {
+  display: flex;
+  flex-direction: column;
+  font-family: $secondfont;
+  z-index: 2;
+  background-color: #fff;
+  a {
+    padding: 1rem 0;
+    width: 103px;
+    text-align: center;
+  }
+  a:hover {
+    background-color: rgb(240, 240, 240);
+  }
+}
+.dropdown {
+  cursor: pointer;
+  position: relative;
 }
