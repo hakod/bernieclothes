@@ -22,7 +22,6 @@ class Product extends React.Component {
     let o = data.products.filter(
       x => x.id === Number(this.props.match.params.id)
     );
-    console.log(this.props.actions);
     this.setState({
       product: o[0],
       type: o[0].type.toUpperCase(),

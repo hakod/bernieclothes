@@ -10,6 +10,12 @@ let actions = {
       type: "DELETE_ITEM",
       id: id
     };
+  },
+  qty: function(id) {
+    return {
+      type: "QTY",
+      id: id
+    };
   }
 };
 

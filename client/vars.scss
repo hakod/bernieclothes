@@ -117,29 +117,69 @@ $thirdfont: "Parisienne";
     }
   }
 }
-
+.contain {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.total {
+  display: flex;
+  grid-column: 2;
+  width: 70%;
+  margin: 0 auto;
+  border-top: 1px solid #eaeaea;
+  flex-direction: column;
+  margin-top: 2rem;
+  font-family: $secondfont;
+  text-transform: uppercase;
+  div {
+    display: flex;
+    h2 {
+      font-weight: 600;
+      font-size: 1rem;
+      width: 50%;
+      margin: 2rem 0;
+    }
+    h2:nth-child(2) {
+      text-align: right;
+    }
+  }
+  button {
+    border: none;
+    height: 50px;
+    background-color: #041e3a;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+  }
+}
 .cart-container {
   display: flex;
   flex-direction: column;
-  margin-left: 4rem;
+  margin-left: 2rem;
+  width: 700px;
   h1 {
     font-family: $secondfont;
     font-size: 1.5rem;
-    margin: 3rem 0 1rem 0;
+    margin: 3rem 0 1rem 2rem;
     font-weight: 300;
     letter-spacing: 0.3rem;
+    width: 80%;
   }
   .cart {
     display: flex;
     border-top: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
     margin-bottom: 2rem;
+    margin-left: 2rem;
     padding-top: 2rem;
     height: 280px;
-    width: 50%;
+    width: 600px;
     font-family: $secondfont;
     img {
+      margin-left: 1rem;
       max-height: 260px;
-      margin-left: 2rem;
     }
     div {
       width: 100%;
@@ -164,7 +204,6 @@ $thirdfont: "Parisienne";
       }
       button {
         all: unset;
-        margin-left: 0.5rem;
         font-family: $secondfont;
         width: 50px;
         height: 30px;
@@ -177,6 +216,10 @@ $thirdfont: "Parisienne";
         font-size: 0.7rem;
         font-weight: 600;
         color: #828282;
+      }
+      h5 {
+        font-weight: 600;
+        text-transform: uppercase;
       }
       h5:nth-child(4) {
         padding: 2rem 0;

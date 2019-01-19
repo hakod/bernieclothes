@@ -6,10 +6,18 @@ let itemReducer = function(item = [], action) {
       return [
         {
           item: action.id,
-          id: uuidv4()
+          id: uuidv4(),
+          qty: "3"
         },
         ...item
       ];
+    case "QTY":
+      console.log(action.id[1]);
+      console.log(item.findIndex(x => x.id == action.id[0]));
+      let i = item.findIndex(x => x.id == action.id[0]);
+      let a = item;
+      a[i].qty = action.id[1];
+      return [...a];
 
     case "DELETE_ITEM":
       return item.filter(item => {

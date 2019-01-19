@@ -1,6 +1,7 @@
 import React from "react";
 import CartItem from "./CartItem";
 var shortid = require("shortid");
+import Total from "./Total";
 
 function createId(text) {
   return {
@@ -16,16 +17,19 @@ class Cart extends React.Component {
   }
   render() {
     return (
-      <div className="cart-container">
-        <h1>SHOPPING CART ({this.props.item.length})</h1>
-        {this.props.item.map(item => (
-          <CartItem
-            actions={this.props.actions}
-            item={this.props.item}
-            it={item}
-            key={createId().id}
-          />
-        ))}
+      <div className="contain">
+        <div className="cart-container">
+          <h1>SHOPPING CART ({this.props.item.length})</h1>
+          {this.props.item.map(item => (
+            <CartItem
+              actions={this.props.actions}
+              item={this.props.item}
+              it={item}
+              key={createId().id}
+            />
+          ))}
+        </div>
+        <Total item={this.props.item} />
       </div>
     );
   }
