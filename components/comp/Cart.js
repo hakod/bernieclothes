@@ -38,9 +38,9 @@ class Cart extends React.Component {
             <Total item={this.props.item} />
           </div>
         ) : (
-          <div>
-            <h1>Empty Cart</h1>
-            <Link to="/">Home</Link>
+          <div className="empty">
+            <h1>Your shopping cart is empty</h1>
+            <Link to="/">Continue shopping</Link>
           </div>
         )}
       </div>

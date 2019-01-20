@@ -20,6 +20,9 @@ class Total extends React.Component {
     return (
       <div className="total">
         <div>
+          <h2>need help? call 1-123-412-1543</h2>
+        </div>
+        <div>
           <h2>subtotal</h2>
           <h2>${sub ? sub : null}</h2>
         </div>
