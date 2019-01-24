@@ -144,8 +144,10 @@ class Product extends React.Component {
               })}
             </div>
             <div className="pricesCart">
-              <p>Subtotal:</p>
-              <p>${total.reduce((x, y) => x + y).toFixed(2)}</p>
+              <div>
+                <p>Subtotal:</p>
+                <p>${total.reduce((x, y) => x + y).toFixed(2)}</p>
+              </div>
               <Link to="/cart">Go to Cart</Link>
             </div>
           </section>
