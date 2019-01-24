@@ -57,7 +57,7 @@ class Product extends React.Component {
           this.setState({
             show: false
           }),
-        3000000
+        3000
       );
     }
     if (!this.state.colorSet) {
