@@ -12,7 +12,9 @@ class Product extends React.Component {
       color: [],
       size: [],
       colorSet: "",
-      sizeSet: ""
+      sizeSet: "",
+      message: "",
+      show: false
     };
     this.setColor = this.setColor.bind(this);
     this.setSize = this.setSize.bind(this);
@@ -32,30 +34,51 @@ class Product extends React.Component {
   }
   setColor(event) {
     this.setState({
-      colorSet: event.target.value
+      colorSet: event.target.value,
+      message: ""
     });
   }
   setSize(event) {
     this.setState({
-      sizeSet: event.target.value
+      sizeSet: event.target.value,
+      message: ""
     });
   }
   add() {
     if (this.state.colorSet && this.state.sizeSet) {
       this.props.actions.addItem(this.state);
-      alert(`${this.state.name} added to cart`);
-    } else {
-      alert("Select color and size");
+      this.setState({
+        show: true
+      });
+      window.scrollTo(0, 0);
+      // arrow function for context
+      setTimeout(
+        () =>
+          this.setState({
+            show: false
+          }),
+        3000000
+      );
+    }
+    if (!this.state.colorSet) {
+      this.setState({
+        message: "Please select a color"
+      });
+    } else if (!this.state.sizeSet) {
+      this.setState({
+        message: "Please select a size"
+      });
     }
   }
   render() {
     let pro = this.state.product;
+    let total = this.props.item.map(x => x.qty * x.item.product.price);
     return (
       <div className="product">
-        <div>
+        <div className="productImage">
           <img src={pro.image} />
         </div>
-        <div>
+        <div className="productTitle">
           <h2>
             <Link to={`/${pro.type}`}>{this.state.type}</Link>/{this.state.name}
           </h2>
@@ -97,9 +120,36 @@ class Product extends React.Component {
                 ))
               : null}
           </ul>
+          <div className="message">
+            {this.state.message ? <p>{this.state.message}</p> : null}
+          </div>
           <p>{pro.description}</p>
           <a onClick={this.add}>ADD TO BAG</a>
         </div>
+        {this.state.show ? (
+          <section className="showCart">
+            <div className="cartBox">
+              {this.props.item.map((x, index) => {
+                return (
+                  <div className="cartBoxItem" key={index}>
+                    <img src={x.item.product.image} />
+                    <div>
+                      <h2>{x.item.name}</h2>
+                      <p>COLOR: {x.item.colorSet}</p>
+                      <p>SIZE: {x.item.sizeSet}</p>
+                      <p>QTY: {x.qty}</p>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+            <div className="pricesCart">
+              <p>Subtotal:</p>
+              <p>${total.reduce((x, y) => x + y).toFixed(2)}</p>
+              <Link to="/cart">Go to Cart</Link>
+            </div>
+          </section>
+        ) : null}
       </div>
     );
   }

@@ -64,7 +64,11 @@ class App extends Component {
               <Route
                 path="/product/:id"
                 render={props => (
-                  <Product {...props} actions={this.props.actions} />
+                  <Product
+                    {...props}
+                    actions={this.props.actions}
+                    item={this.props.item}
+                  />
                 )}
               />
               <Route

@@ -11,6 +11,7 @@ let itemReducer = function(item = [], action) {
         },
         ...item
       ];
+
     case "QTY":
       console.log(action.id[1]);
       console.log(item.findIndex(x => x.id == action.id[0]));
