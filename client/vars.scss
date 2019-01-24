@@ -394,6 +394,14 @@ $thirdfont: "Parisienne";
     height: 1;
   }
 }
+@keyframes rev {
+  from {
+    height: 1;
+  }
+  to {
+    height: 0;
+  }
+}
 .showCart {
   position: absolute;
   right: 0;
@@ -402,8 +410,8 @@ $thirdfont: "Parisienne";
   border: 1px solid #e9e9e9;
   width: 20rem;
   height: 20rem;
+  animation-fill-mode: forwards;
   animation-name: show;
-  animation-direction: forwards;
   animation-duration: 0.7s;
   background-color: #fff;
 }

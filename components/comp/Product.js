@@ -53,11 +53,15 @@ class Product extends React.Component {
       window.scrollTo(0, 0);
       // arrow function for context
       setTimeout(
+        () => (document.querySelector(".showCart").style.animationName = "rev"),
+        5000
+      );
+      setTimeout(
         () =>
           this.setState({
             show: false
           }),
-        3000
+        5500
       );
     }
     if (!this.state.colorSet) {
