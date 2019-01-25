@@ -1,0 +1,144 @@
+@media only screen and (min-width: 750px) and (max-width: 801px) {
+  //homepage tablet
+  .home {
+    .home1 {
+      .title1 {
+        margin-right: 5rem;
+      }
+    }
+    .home2 {
+      height: auto;
+      .skirts,
+      .blazers,
+      .jacketsw,
+      .handbags {
+        height: 20rem;
+      }
+    }
+    .home3 {
+      .title2 {
+        height: 25rem;
+        h1 {
+          font-size: 2rem;
+          margin-right: 5rem;
+        }
+      }
+      .jackets,
+      .sweaters {
+        height: 20rem;
+      }
+    }
+  }
+  .footer {
+    .foot1 {
+      ul {
+        margin-left: 3rem;
+      }
+    }
+  }
+
+  //product list
+  .list {
+    margin: 0.5rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .item {
+    grid-row: 2;
+    grid-column: 2;
+  }
+  .page {
+    grid-column: 3;
+  }
+
+  //item page
+  .product {
+    flex-direction: column;
+    margin: 0;
+    .productImage {
+      margin: 0 auto;
+    }
+    .productTitle {
+      h2,
+      h1 {
+        text-align: center;
+      }
+      width: auto;
+      margin: 2rem;
+    }
+  }
+
+  .contain {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    .total {
+      margin: 0 2rem;
+      width: auto;
+    }
+    .cart-container {
+      margin: 0;
+      width: 100%;
+      height: auto;
+      h1 {
+        font-size: 1.3rem;
+        margin: 1rem auto;
+      }
+    }
+    .cart {
+      margin: 0;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      img {
+        display: block;
+        margin: 0 auto;
+        max-height: 480px;
+        width: auto;
+        max-width: 100%;
+      }
+      div {
+        padding-top: 2rem;
+        margin: 0 auto;
+        * {
+          text-align: left;
+          margin: 0 2rem;
+        }
+        h5:nth-child(4) {
+          padding: 0;
+          text-align: left;
+          margin-bottom: 2rem;
+          margin: 0 2rem;
+        }
+        select {
+          margin-left: 2rem;
+          margin-top: 2rem;
+        }
+        button {
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+
+  //checkout page
+  .checkout-page {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 2rem;
+    .total {
+      margin: none;
+      width: 100%;
+    }
+    .checkout {
+      form {
+        display: flex;
+        flex-direction: column;
+        select {
+          height: 49.33px;
+        }
+      }
+    }
+  }
+}

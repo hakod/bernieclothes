@@ -11,11 +11,13 @@ class Title extends React.Component {
       number: 3,
       current: 1,
       next: [0, 6],
-      sort: "sort"
+      sort: "sort",
+      filter: "SHOW FILTER"
     };
     this.right = this.right.bind(this);
     this.left = this.left.bind(this);
     this.change = this.change.bind(this);
+    this.filter = this.filter.bind(this);
   }
   componentDidMount() {
     this.setState({
@@ -43,6 +45,17 @@ class Title extends React.Component {
       sort: event.target.value
     });
   }
+  filter() {
+    if (this.state.filter == "SHOW FILTER") {
+      this.setState({
+        filter: "HIDE FILTER"
+      });
+    } else {
+      this.setState({
+        filter: "SHOW FILTER"
+      });
+    }
+  }
   render() {
     function sort(a, b) {
       if (a.price < b.price) return -1;
@@ -64,9 +77,9 @@ class Title extends React.Component {
       <div>
         <div className="title">
           <div className="filter">
-            <h1>
+            <h1 onClick={this.filter}>
               <FontAwesomeIcon icon="bars" />
-              &nbsp; HIDE FILTER
+              &nbsp; {this.state.filter}
             </h1>
             <select onChange={this.change}>
               <option value="sort">Sort</option>

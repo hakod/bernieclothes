@@ -1,0 +1,240 @@
+@media only screen and (min-width: 300px) and (max-width: 420px) {
+  //header bars
+  .header {
+    .brand {
+      h1 {
+        font-size: 1rem;
+      }
+      .cart {
+        right: 1rem;
+        font-size: 0.8rem;
+      }
+    }
+    .category {
+      li,
+      a {
+        font-size: 0.6rem;
+      }
+      justify-content: space-evenly;
+    }
+    .promo {
+      h2 {
+        font-size: 0.6rem;
+        font-weight: 700;
+        text-align: center;
+        margin: 0 1rem;
+      }
+    }
+  }
+  //banner
+  .home {
+    .home1 {
+      .title1 {
+        margin: 0 auto;
+        h2:nth-child(2) {
+          margin-bottom: 7rem;
+        }
+        h1:nth-child(4) {
+          font-size: 2rem;
+        }
+      }
+    }
+    .home2 {
+      grid-template-columns: repeat(1, 1fr);
+      height: auto;
+      grid-gap: 2rem;
+      margin: 0 1rem;
+      margin-top: 1rem;
+      .skirts,
+      .blazers,
+      .jacketsw,
+      .handbags {
+        height: 350px;
+        width: 300px;
+        margin: 0 auto;
+      }
+      .handbags {
+        margin-bottom: 2rem;
+        a {
+          h1 {
+            font-size: 1.5rem;
+            margin: 7rem 0;
+          }
+          p,
+          .line {
+            font-size: 0.8rem;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+    .home3 {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 2rem;
+      .title2 {
+        height: 300px;
+        h1 {
+          font-size: 2rem;
+          margin: 0 auto;
+        }
+      }
+      .jackets,
+      .sweaters {
+        height: 350px;
+        width: 300px;
+        margin: 0 auto;
+        grid-column: 1/3;
+      }
+    }
+  }
+  .footer {
+    .foot1 {
+      height: auto;
+      flex-direction: column;
+      border: none;
+      text-align: center;
+      ul:nth-child(1),
+      ul {
+        border: none;
+        height: auto;
+        width: 100%;
+        h1 {
+          margin: 1rem 0;
+        }
+      }
+    }
+  }
+  //products style mobile
+  .list {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 1rem;
+  }
+  .title {
+    margin: 1rem;
+    grid-template-columns: repeat(4, 25%);
+    .filter {
+      h1 {
+        display: none;
+      }
+      select {
+        font-size: 0.5rem;
+        width: 100%;
+      }
+    }
+    .item {
+      grid-row: 2;
+      grid-column: 2/4;
+    }
+    .page {
+      grid-column: 4/-1;
+      width: 100%;
+    }
+  }
+
+  //product page mobile
+  .product {
+    flex-direction: column;
+    margin: 0;
+    .productImage {
+      img {
+        display: block;
+        margin: 0 auto;
+        max-height: 400px;
+        width: auto;
+        max-width: 100%;
+      }
+    }
+    .productTitle {
+      width: auto;
+      margin: 0 2rem;
+      h1,
+      h2 {
+        text-align: center;
+        margin-bottom: 0.2rem;
+      }
+      a {
+        width: auto;
+      }
+    }
+  }
+
+  //shopping bag
+  .contain {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    .cart-container {
+      margin: 0;
+      width: 100%;
+      height: auto;
+      h1 {
+        font-size: 1.3rem;
+        margin: 1rem auto;
+      }
+    }
+    .cart {
+      margin: 0;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      img {
+        display: block;
+        margin: 0 auto;
+        max-height: 400px;
+        width: auto;
+        max-width: 100%;
+      }
+      div {
+        padding-top: 2rem;
+        margin: 0 auto;
+        * {
+          text-align: center;
+          margin: 0;
+        }
+        h5:nth-child(4) {
+          padding: 0;
+          text-align: center;
+          margin-bottom: 2rem;
+        }
+        select {
+          display: block;
+          margin: 0 auto;
+        }
+        button {
+          display: block;
+          margin: 0 auto;
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+  //empty cart
+  .empty {
+    h1 {
+      text-align: center;
+      font-size: 1.3rem;
+    }
+  }
+
+  //checkout page
+  .checkout-page {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 2rem;
+    .total {
+      margin: none;
+      width: 100%;
+    }
+    .checkout {
+      form {
+        display: flex;
+        flex-direction: column;
+        select {
+          height: 49.33px;
+        }
+      }
+    }
+  }
+}

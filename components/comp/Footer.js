@@ -18,12 +18,10 @@ class Footer extends React.Component {
             <li>Terms</li>
           </ul>
           <ul>
-            <ul>
-              <h1>ACCOUNT</h1>
-              <li>My Account</li>
-              <li>Returns</li>
-              <li>Check Out</li>
-            </ul>
+            <h1>ACCOUNT</h1>
+            <li>My Account</li>
+            <li>Returns</li>
+            <li>Check Out</li>
           </ul>
           <ul>
             <h1>Customer</h1>
