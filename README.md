@@ -1,2 +1,1 @@
 # bernieclothes
-bernieclothes.herokuapp.com
